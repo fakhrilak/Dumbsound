@@ -1,0 +1,22 @@
+.background-addartis{
+    background-color: black;
+}
+.form-input-artis{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 30px;
+}
+.form-submit{
+    padding-left: 400px;
+    padding-right: 400px;
+    background-color: black;
+    padding-top: 30px;
+}
+
+.form-submit button{
+    background-color: #F58033;
+    border-radius: 5px;
+    width: 550px;
+    height: 40px;
+    color: white;
+}

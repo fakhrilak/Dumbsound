@@ -1,0 +1,85 @@
+.Home{
+    background-color: black;
+    color:orangered;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-music{
+    max-width: 100%;
+    margin: 0;
+    margin-left:90px;
+    margin-right: 90px;
+}
+
+.grid-music{
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+
+.card-music{
+  background-color: #3A3A3A;
+  border-radius: 10px;
+  background-size: 100%, cover !important;
+  margin-bottom: 0.5rem;
+  width: 94%;
+  height: 100%;
+  cursor: pointer;
+}
+.titlemusic{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    border-radius: 10px;
+    position: absolute;
+    width: 150px;
+    height: 22px;
+    white-space: nowrap;
+}
+.namaartis{
+    color: white;
+    text-align: left;
+    font-family: fantasy;
+    font-size: 13px;
+    border-radius: 10px;
+    position: relative;
+}
+.card-music img{
+   
+    width:150px;
+    height: 150px;
+    border-radius: 10px;
+    
+}
+.thumbnailmusic{
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-family: Product Sans;
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.filter input{
+    border-radius: 5px;
+    border-color: orangered;
+    height: 20px;
+}
+.filter button{
+    border-radius: 5px;
+    border-color: orangered;
+    height: 25px;
+}
